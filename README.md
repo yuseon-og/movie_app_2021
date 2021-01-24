@@ -1,5 +1,6 @@
 React JS Fundamentals
 
+<<<<<<< HEAD
 깃 클론하기
 
 원하는 폴더에 들어가서 "하위 디렉토리는 깃에서 들어옴"
@@ -8,6 +9,9 @@ React JS Fundamentals
 2. clone 된 폴더에 가서 npm install
 3. npm start로 확인
    끝
+=======
+yeah
+>>>>>>> 60f66cddd60c6584e5ca8b5fa03d18c1e8bb245a
 
 <!-- # Getting Started with Create React App
 
