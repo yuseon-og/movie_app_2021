@@ -1,5 +1,14 @@
 React JS Fundamentals
 
+깃 클론하기
+
+원하는 폴더에 들어가서 "하위 디렉토리는 깃에서 들어옴"
+
+1. git clone 주소
+2. clone 된 폴더에 가서 npm install
+3. npm start로 확인
+   끝
+
 <!-- # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
