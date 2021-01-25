@@ -56,7 +56,7 @@ import React from 'react';
 
 class App extends React.Component{
   state = {
-    count : 0
+    count : 2
   }
 
  add()  {
@@ -74,8 +74,8 @@ return this.setState({count:1})
   render(){
     return (
    <div>
-    <h1> the number is : {this.state.count}</h1>
-    <button onClick={this.add}>Add</button>
+      <h1> the number is : {this.state.count}</h1>
+     <button onClick={this.add}>Add</button>
     <button onClick={this.minus}>Minus</button>
     </div>
     )
