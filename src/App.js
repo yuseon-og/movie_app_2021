@@ -114,3 +114,5 @@ export default App;
 // when i use only console.log, no problem.
 
 // do we have to use only arrow function for method when using setState?
+
+// asdf
