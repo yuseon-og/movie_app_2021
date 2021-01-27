@@ -1,7 +1,5 @@
-import React from 'react';
+import React from "react";
 // import PropTypes from 'prop-types';
-
-
 
 // const foodILike=[
 //   {
@@ -37,9 +35,9 @@ import React from 'react';
 // ];
 
 // function Food({name, picture, rating}) {
-  
+
 //   return<div>
-    
+
 //     <h2> i like {name}</h2>
 //     <h4>{rating}/5.0</h4>
 //     <img src = {picture} alt={name}></img>
@@ -51,40 +49,37 @@ import React from 'react';
 //   picture:PropTypes.string.isRequired,
 //   rating:PropTypes.number.isRequired
 
-
 // };
 
-class App extends React.Component{
+class App extends React.Component {
   state = {
-    count : 2
-  }
-
- add()  {
-  // return this.setState({count:1})
-return this.setState({count:1})
-  console.log("object")
-}
-//  add=()=> {
-//         this.setState( cur =>({count: cur.count+1}))
-//   };
-  minus = ()=>{
-    this.setState( cur =>({count: cur.count-1}))
+    count: 2,
   };
 
-  render(){
+  add() {
+    // return this.setState({count:1})
+    return this.setState({ count: 1 });
+    console.log("object");
+  }
+  //  add=()=> {
+  //         this.setState( cur =>({count: cur.count+1}))
+  //   };
+  minus = () => {
+    this.setState((cur) => ({ count: cur.count - 1 }));
+  };
+
+  render() {
     return (
-   <div>
-      <h1> the number is : {this.state.count}</h1>
-     <button onClick={this.add}>Add</button>
-    <button onClick={this.minus}>Minus</button>
-    </div>
-    )
+      <div>
+        <h1> the number is : {this.state.count}</h1>
+        <button onClick={this.add}>Add</button>
+        <button onClick={this.minus}>Minus</button>
+      </div>
+    );
   }
 }
 
-
 export default App;
-
 
 // thanks for the great lecture Nico!
 
@@ -99,13 +94,13 @@ export default App;
 
 // add = function ()  {
 //        return  this.setState({count:1})
-  
+
 // }
 
-// and 
+// and
 
 // add()  {
-  
+
 // return this.setState({count:1})
 // }
 
