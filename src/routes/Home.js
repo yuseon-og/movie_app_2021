@@ -37,7 +37,7 @@ class Home extends React.Component {
           ) : (
             <div className="movies">
               {movies.map((movie) => {
-                console.log(movie.genres);
+                // console.log(movie.genres);
                 return (
                   <Movie
                     key={movie.id}
